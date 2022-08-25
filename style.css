@@ -148,3 +148,157 @@ nav{
     margin-left: 320px;
     margin-top: -9px;
 }
+
+@media screen and (max-width:648px) {
+    /* Cover Image */
+body{
+    background: left no-repeat url(./Assets/bg.png);
+    background-size:auto;
+    overflow: hidden;
+    color: #fff;
+
+}
+
+/* Navbar */
+nav{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.logo{
+    margin-left: 10px ;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 250px;;
+}
+.menus{
+    padding-right: 20px;
+    font-size: 12px;
+}
+.call{
+    display: flex;
+    flex-direction: row;
+    margin-left: -75px;
+    margin-top: 28px;
+    width: 150px;
+}
+.call-img{
+    width: 20px;
+}
+.call-us{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    font-size: 10px;
+}
+/* Divider */
+.divider{
+    border: 1px solid #fff;
+    width: 910px;
+    height: 1px;
+    background-color: #fff;
+    float: right;
+}
+
+/* Main Body */
+.headings{
+        font-size: 2em;
+        width: 300px;
+        margin-left: 40px;
+        margin-top: 100px;
+        margin-right:70px;
+        margin-bottom: 40px;
+}
+
+.learnMore{
+        margin-left: 40px;
+        margin-top: 0px;
+        margin-right:70px;
+        margin-bottom: 40px;
+        padding: 10px 60px;
+        border-radius: 50px;
+        color: #fff;
+        background: transparent;
+        font-size: 20px;
+        border: 2px solid #fff;
+}
+
+.cards{
+    position: absolute;
+}
+
+.card1{
+    margin-top: -320px;
+    margin-left: 350px;
+    width: 250px;
+    height: 130px;
+    background-color:  rgb(255, 255, 255, 0.2);
+}
+
+.card2{
+    margin-top: 120px;
+    margin-left: 300px;
+    width: 230px;
+    height: 130px;
+    background-color:  rgb(255, 255, 255, 0.2);
+}
+
+.card-img{
+    width: 25px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: 1px solid #fff;
+    border-radius: 45px;
+    padding: 3px 20px;
+    background-color: #fff;
+}
+.card-txt{
+    font-size: 12px;
+    font-weight: bold;
+    width: 200px;
+    margin-left: 25px;
+}
+
+/* Crad Circle and Line */
+.circle{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.hline{
+    width:.5px;
+    height: 70px;
+    border: .1px solid #fff;
+    background-color: #fff;
+    margin-left: 150px;
+    margin-top: 28px;
+}
+
+.vline{
+    width:70px;
+    height: .2px;
+    border: .2px solid #fff;
+    background-color: #fff;
+    margin-left: 230px;
+    margin-top: -50px;
+}
+
+.circle1{
+    margin-left: 143px;
+}
+
+.circle2{
+    margin-left: 300px;
+    margin-top: -9px;
+}
+}
